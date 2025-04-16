@@ -14,10 +14,14 @@ columns = width / 0.5
 rows = height / 0.5
 // For example: 17 / 0.5 = 34 columns, 20 / 0.5 = 40 rows
 
+![Wireframe Grid View](size-selection.png)
+
 4. **User uploads an image
 - Image is displayed on screen (resized if needed)
 - App reads image’s pixel dimensions
 - Image height capped at 800px (resize logic TBD)
+- 
+![Wireframe Grid View](upload-img.png)
 
 5. Grid is generated:
 - Fixed number of rows/columns from project size
@@ -26,6 +30,9 @@ rows = height / 0.5
 
 cellWidth = image.width / columns
 cellHeight = image.height / rows
+
+![Wireframe Grid View](Sample-IMG-Uploaded-to-Grid.png)
+
 
 **Key Principles**
 1. Grid size is based on project size, not image dimensions
