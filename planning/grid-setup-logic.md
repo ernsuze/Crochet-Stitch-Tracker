@@ -28,8 +28,8 @@ rows = height / 0.5
 - Each grid square = 1 stitch (0.5” x 0.5”)
 - Grid overlays image and aligns with it
 
-cellWidth = image.width / columns
-cellHeight = image.height / rows
+- cellWidth = image.width / columns
+- cellHeight = image.height / rows
 
 ![Wireframe Grid View](Sample-IMG-Uploaded-to-Grid.png)
 
@@ -61,12 +61,14 @@ Grid is generated with 34 x 40 cells
 
 Each grid cell is scaled to match image dimensions
 
-cellWidth = image.width / 34
-cellHeight = image.height / 40
+- cellWidth = image.width / 34
+- cellHeight = image.height / 40
 
 **Conceptual Summary**
 “The grid has a fixed number of cells.
 The image can be any size—but once it’s displayed,
 I divide its width and height by the number of grid columns and rows
 so the grid stretches or shrinks to fit it exactly.”
+
+[← Back to Main README](../README.md)
 
