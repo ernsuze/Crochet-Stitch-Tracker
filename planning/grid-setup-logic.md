@@ -6,7 +6,7 @@ High-Level User Flow
 2. **Clicks “Start Now”** → Redirects to project size selection  
 3. **User selects a project size** → e.g., Small T-shirt (17” x 20”)
 
-![Wireframe Grid View](.planning/Crochet-Stitch-Tracker.png)
+![Wireframe Grid View](Crochet-Stitch-Tracker.png)
 
 
 ### ➡️ App calculates:
